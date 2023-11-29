@@ -70,7 +70,7 @@ body{
 .top a {
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 2px;
 }
 
@@ -124,10 +124,28 @@ body{
     font-size: 20px;
     font-weight: 200;
 }
-.titre span{
-  margin-top: 100px;
+
+.carousel-control-prev{
+  margin-top: 200px;
+}
+.carousel-control-next{
+  margin-top: 200px;
+}
+@media screen and (max-width: 767px)
+{
+  .carousel-control-prev{
+    margin-top: 100px;
+  }
+  .carousel-control-next{
+    margin-top: 100px;
+  }
+  
 }
 
+
+.image{
+  margin-top: 100px;
+}
 .overlay {
     position: absolute;
     top: 0;
@@ -161,10 +179,10 @@ body{
   }
   .titre{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; /* Couleur du texte sur l'overlay */
+    color: white;
     text-align: center;
   }
   .titre span{
@@ -172,6 +190,7 @@ body{
     color: white;
     font-size: 25px;
     font-weight: 200;
+
   }
 
   .slider {
@@ -338,4 +357,12 @@ body{
     .contact-form {
       max-width: 400px;
       margin: 50px auto;
+    }
+
+    @media screen and (max-width: 767px)
+    {
+      footer{
+        text-align: center;
+        margin-top: 50px;
+      }
     }
