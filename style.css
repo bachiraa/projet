@@ -23,6 +23,7 @@ body{
 .navbar-nav li{
     padding: 0 20px;
 }
+
 .navbar-nav li a{
     color: #e6007e!important;
     font-weight: 600px;
@@ -60,6 +61,11 @@ body{
     justify-content: center;
     background-color: #e6007e;
     height: 80px;
+}
+
+@media screen and (max-width: 767px)
+{
+
 }
 
 .top li {
