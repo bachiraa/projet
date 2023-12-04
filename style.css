@@ -62,12 +62,6 @@ body{
     background-color: #e6007e;
     height: 80px;
 }
-
-@media screen and (max-width: 767px)
-{
-
-}
-
 .top li {
     padding: 20px;
     margin-top: 10px;
@@ -147,8 +141,6 @@ body{
   }
   
 }
-
-
 .image{
   margin-top: 100px;
 }
